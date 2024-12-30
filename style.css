@@ -1,0 +1,2202 @@
+  *,
+  :before,
+  :after {
+      box-sizing: border-box
+  }
+
+  body {
+      -webkit-font-smoothing: antialiased
+  }
+
+  @view-transition {
+      navigation: auto;
+  }
+
+  @media (prefers-reduced-motion) {
+      @view-transition {
+          navigation: none;
+      }
+  }
+
+  textarea:focus-visible {
+      outline: none
+  }
+
+  button {
+      -webkit-font-smoothing: inherit;
+      -moz-osx-font-smoothing: inherit;
+      -webkit-appearance: none
+  }
+
+  * {
+      margin: 0;
+      padding: 0
+  }
+
+  a {
+      color: inherit;
+      -webkit-text-decoration: inherit;
+      text-decoration: underline
+  }
+
+  input {
+      font: inherit;
+      background-color: inherit;
+      border: none;
+      outline: none
+  }
+
+  button {
+      font: inherit;
+      background: 0 0;
+      background-color: inherit;
+      color: inherit;
+      border-style: none;
+      width: auto;
+      line-height: normal;
+      overflow: visible
+  }
+
+  textarea,
+  select {
+      font: inherit;
+      background-color: inherit
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+      display: block
+  }
+
+  [data-reaction-click] {
+      cursor: pointer
+  }
+
+  [data-visible=false] {
+      display: none !important
+  }
+
+  .before-hidden:before,
+  .after-hidden:after {
+      display: none
+  }
+
+  .before-visible:before,
+  .after-visible:after {
+      content: ""
+  }
+
+  ::placeholder {
+      color: inherit;
+      opacity: .54
+  }
+
+  body * {
+      scrollbar-width: none
+  }
+
+  body ::-webkit-scrollbar {
+      display: none
+  }
+
+  [name=honey-pot-field] {
+      display: none !important
+  }
+
+  .pointer-events-none {
+      pointer-events: none
+  }
+
+  #_ {
+      background-color: #050509;
+      min-height: 100vh;
+      display: grid
+  }
+
+  #Tournaments {
+      background-color: #050509;
+      width: 1440px;
+      min-width: 1440px;
+      max-width: 1440px;
+      min-height: 1367px;
+      max-height: 1367px;
+      margin: 0 auto;
+      position: relative;
+      overflow: visible auto
+  }
+
+  #Frame_13 {
+      grid-column-gap: 24px;
+      --f2w-order: 0;
+      border: 0 solid #1a1a20;
+      border-bottom-width: 1px;
+      flex-flow: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 1440px;
+      padding: 0 0 0 80px;
+      display: flex;
+      position: absolute;
+      top: 313px;
+      left: 0
+  }
+
+  #Item_Link {
+      grid-column-gap: 10px;
+      --f2w-order: 0;
+      border: 0 solid #67dbe9;
+      border-bottom-width: 2px;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0 11px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1309 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #67dbe9;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__0 {
+      overflow-wrap: break-word;
+      color: #67dbe9;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px
+  }
+
+  #Item_Link_0 {
+      grid-column-gap: 6px;
+      --f2w-order: 1;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_ {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1313 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__1 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_1 {
+      grid-column-gap: 6px;
+      --f2w-order: 2;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_0 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_0 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1317 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__2 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_2 {
+      grid-column-gap: 6px;
+      --f2w-order: 3;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_1 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_1 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1321 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__3 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_3 {
+      grid-column-gap: 6px;
+      --f2w-order: 4;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_2 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_2 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1325 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__4 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_4 {
+      grid-column-gap: 6px;
+      --f2w-order: 5;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_3 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_3 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1329 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__5 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_5 {
+      grid-column-gap: 6px;
+      --f2w-order: 6;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_4 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_4 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1333 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__6 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_6 {
+      grid-column-gap: 6px;
+      --f2w-order: 7;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_5 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_5 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1337 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__7 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_7 {
+      grid-column-gap: 6px;
+      --f2w-order: 8;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_6 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_6 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1341 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__8 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Item_Link_8 {
+      grid-column-gap: 6px;
+      --f2w-order: 9;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 13px 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-lock_7 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_7 {
+      --f2w-order: 0;
+      width: 17px;
+      height: 19px;
+      position: absolute;
+      top: calc(50% - 10.5px);
+      left: calc(50% - 8.5px)
+  }
+
+  #_22_1345 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__9 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Frame_5 {
+      grid-row-gap: 18px;
+      --f2w-order: 1;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: start;
+      width: 714px;
+      padding: 0;
+      display: flex;
+      position: absolute;
+      top: 401px;
+      left: 83px
+  }
+
+  #Heading_3_Overall_statistics {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      display: inline;
+      position: relative
+  }
+
+  #__10 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px
+  }
+
+  #Background {
+      grid-column-gap: 10px;
+      --f2w-order: 1;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 714px;
+      height: 84px;
+      margin: 0;
+      padding: 18px;
+      display: flex;
+      position: relative
+  }
+
+  #image_3 {
+      --f2w-order: 0;
+      aspect-ratio: 1;
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      margin: 0;
+      position: relative;
+      overflow: hidden;
+      transform: rotate(-180deg)scaleX(-1)
+  }
+
+  #__11 {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0
+  }
+
+  #_22_1350 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-grow: 1;
+      flex-basis: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__12 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #Background_0 {
+      grid-column-gap: 0px;
+      --f2w-order: 2;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 714px;
+      height: 110px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #VerticalBorder {
+      grid-row-gap: 10px;
+      --f2w-order: 0;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: start;
+      margin: 0 auto 0 0;
+      padding: 26px 24px;
+      display: flex;
+      position: relative
+  }
+
+  #Frame_3 {
+      grid-column-gap: 6px;
+      --f2w-order: 0;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-trophy {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_8 {
+      --f2w-order: 0;
+      width: 83.3%;
+      height: 79.2%;
+      position: absolute;
+      inset: 12.5% 8.3% 8.3%
+  }
+
+  #_22_1356 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      display: inline;
+      position: relative
+  }
+
+  #__13 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400
+  }
+
+  #_22_1357 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      display: inline;
+      position: relative
+  }
+
+  #__14 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px
+  }
+
+  #VerticalBorder_0 {
+      grid-row-gap: 10px;
+      --f2w-order: 1;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: start;
+      margin: 0 auto 0 0;
+      padding: 26px 24px;
+      display: flex;
+      position: relative
+  }
+
+  #Frame_4 {
+      grid-column-gap: 6px;
+      --f2w-order: 0;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-award {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_9 {
+      --f2w-order: 0;
+      width: 83.3%;
+      height: 83.3%;
+      position: absolute;
+      inset: 6.7% 7.1% 10% 9.6%
+  }
+
+  #_22_1362 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      display: inline;
+      position: relative
+  }
+
+  #__15 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400
+  }
+
+  #_22_1363 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      display: inline;
+      position: relative
+  }
+
+  #__16 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px
+  }
+
+  #VerticalBorder_1 {
+      grid-row-gap: 10px;
+      --f2w-order: 2;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: start;
+      width: 216px;
+      margin: 0;
+      padding: 26px 0 26px 24px;
+      display: flex;
+      position: relative
+  }
+
+  #Frame_3_0 {
+      grid-column-gap: 6px;
+      --f2w-order: 0;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #tabler-icon-certificate-2 {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector_Stroke_10 {
+      --f2w-order: 0;
+      width: 58.3%;
+      height: 87.5%;
+      position: absolute;
+      inset: 8.3% 20.8% 4.2%
+  }
+
+  #_22_1368 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      display: inline;
+      position: relative
+  }
+
+  #__17 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400
+  }
+
+  #_22_1369 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      display: inline;
+      position: relative
+  }
+
+  #__18 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px
+  }
+
+  #Background_1 {
+      grid-row-gap: 10px;
+      --f2w-order: 3;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 714px;
+      height: 316px;
+      margin: 0;
+      padding: 18px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1371 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__19 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%
+  }
+
+  #_22_1372 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #0000;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-size: 16px;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__21 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #__23 {
+      overflow-wrap: break-word;
+      color: #cdcdcd;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 150%
+  }
+
+  #_22_1373 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #0000;
+      --f2w-order: 2;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-size: 16px;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__25 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #__27 {
+      overflow-wrap: break-word;
+      color: #cdcdcd;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 150%
+  }
+
+  #_22_1374 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #0000;
+      --f2w-order: 3;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-size: 16px;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__29 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #__31 {
+      overflow-wrap: break-word;
+      color: #cdcdcddb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 150%
+  }
+
+  #_22_1375 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #0000;
+      --f2w-order: 4;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-size: 16px;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__33 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #__35 {
+      overflow-wrap: break-word;
+      color: #cdcdcd;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 150%
+  }
+
+  #Background_2 {
+      grid-row-gap: 10px;
+      --f2w-order: 4;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 714px;
+      height: 128px;
+      margin: 0;
+      padding: 18px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1377 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__36 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%
+  }
+
+  #_22_1378 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__37 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #_22_1379 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 2;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__38 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #Background_3 {
+      grid-row-gap: 10px;
+      --f2w-order: 5;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: start;
+      width: 714px;
+      height: 118px;
+      margin: 0;
+      padding: 18px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1381 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__39 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%
+  }
+
+  #_22_1382 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__40 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #Frame_3_1 {
+      --f2w-order: 2;
+      background-color: #193036;
+      width: 1276px;
+      height: 177px;
+      position: absolute;
+      top: 93px;
+      left: 80px;
+      overflow: hidden
+  }
+
+  #Group_2 {
+      --f2w-order: 0;
+      width: 510px;
+      height: 118px;
+      position: absolute;
+      top: 34.3px;
+      left: 458.5px
+  }
+
+  #_22_1385 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      width: max-content;
+      font-family: e-Ukraine;
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 110%;
+      display: inline;
+      position: absolute;
+      top: 0;
+      left: calc(50% - 255px)
+  }
+
+  #__41 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: e-Ukraine;
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 110%
+  }
+
+  #_22_1386 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      width: max-content;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: absolute;
+      top: 49px;
+      left: 0
+  }
+
+  #__42 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #_22_1393 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 2;
+      -webkit-background-clip: text;
+      background-clip: text;
+      width: max-content;
+      font-family: Proxima Nova;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 150%;
+      display: inline;
+      position: absolute;
+      top: 79px;
+      left: 0
+  }
+
+  #__43 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 150%
+  }
+
+  #Illustration {
+      --f2w-order: 1;
+      width: 109px;
+      height: 123px;
+      position: absolute;
+      top: 27px;
+      left: 321px;
+      overflow: hidden
+  }
+
+  #Group_1 {
+      --f2w-order: 0;
+      width: 100px;
+      height: 122px;
+      position: absolute;
+      top: .8px;
+      left: 4px
+  }
+
+  #Background_4 {
+      grid-row-gap: 14px;
+      --f2w-order: 3;
+      background-color: #1a1a20;
+      border-radius: 8px;
+      flex-flow: column;
+      justify-content: center;
+      align-items: start;
+      width: calc(100% - 1162px);
+      padding: 18px 0 18px 18px;
+      display: flex;
+      position: absolute;
+      top: 401px;
+      left: 1078px;
+      right: 84px
+  }
+
+  #_22_1401 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 242px;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      display: inline;
+      position: relative
+  }
+
+  #__44 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%
+  }
+
+  #Frame_8 {
+      grid-column-gap: 16px;
+      --f2w-order: 1;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: center;
+      width: 242px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #Frame_2 {
+      --f2w-order: 0;
+      border-radius: 6px;
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #__45 {
+      object-fit: cover;
+      border-radius: 6px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0
+  }
+
+  #Frame_7 {
+      grid-row-gap: 5px;
+      --f2w-order: 1;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: start;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1405 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #fff;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-decoration: underline;
+      display: inline;
+      position: relative
+  }
+
+  #__46 {
+      overflow-wrap: break-word;
+      color: #fff;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-decoration: underline
+  }
+
+  #_22_1406 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 100%;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      display: inline;
+      position: relative
+  }
+
+  #__47 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px
+  }
+
+  #_30_1448 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 2;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: 242px;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 16px;
+      display: inline;
+      position: relative
+  }
+
+  #__48 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 16px
+  }
+
+  #HorizontalBorder {
+      grid-row-gap: 10px;
+      --f2w-order: 4;
+      border: 0 solid #1a1a20;
+      border-top-width: 1px;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: start;
+      width: calc(100% - 1px);
+      height: 58px;
+      padding: 0;
+      display: flex;
+      position: absolute;
+      top: 1309px;
+      left: 0;
+      right: 1px
+  }
+
+  #Container {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 100%;
+      height: 58px;
+      margin: 0;
+      position: relative
+  }
+
+  #_22_1430 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      justify-content: flex-start;
+      align-items: center;
+      width: 739.2px;
+      height: 34px;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline-flex;
+      position: absolute;
+      top: 15px;
+      left: 83px
+  }
+
+  #__49 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #Frame_6 {
+      grid-column-gap: 18px;
+      --f2w-order: 5;
+      background-color: #050509;
+      border: 0 solid #1a1a20;
+      border-bottom-width: 1px;
+      flex-flow: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 1439px;
+      padding: 0 0 0 80px;
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0
+  }
+
+  #Logo {
+      --f2w-order: 0;
+      flex-shrink: 0;
+      width: 127px;
+      height: 24px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Logo_0 {
+      --f2w-order: 0;
+      width: 38.5px;
+      height: 23.8px;
+      position: absolute;
+      top: 0;
+      left: 0
+  }
+
+  #Subtract {
+      --f2w-order: 0;
+      width: 39px;
+      height: 24px;
+      position: absolute;
+      top: -.2px;
+      left: -.1px
+  }
+
+  #Radam {
+      --f2w-order: 1;
+      width: 77px;
+      height: 18px;
+      position: absolute;
+      top: 3.4px;
+      left: 48.3px
+  }
+
+  #Rectangle_14 {
+      --f2w-order: 1;
+      background-color: #1a1a20;
+      flex-shrink: 0;
+      width: 1px;
+      height: 34px;
+      margin: 0;
+      position: relative
+  }
+
+  #Navigation {
+      grid-column-gap: 26px;
+      --f2w-order: 2;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: end;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      position: relative
+  }
+
+  #Tab {
+      grid-row-gap: 20px;
+      --f2w-order: 0;
+      border-radius: 6px;
+      flex-flow: column;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      align-items: start;
+      margin: 0;
+      padding: 1px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1441 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #67dbe9;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__50 {
+      overflow-wrap: break-word;
+      color: #67dbe9;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px
+  }
+
+  #Horizontal_Divider {
+      --f2w-order: 1;
+      border: 0 solid #67dbe9;
+      border-bottom-width: 2px;
+      border-radius: 9999px 9999px 0 0;
+      flex-shrink: 0;
+      width: 100%;
+      height: 2px;
+      margin: 0;
+      position: relative
+  }
+
+  #Tab_0 {
+      grid-column-gap: 6px;
+      --f2w-order: 1;
+      border-radius: 6px;
+      flex-flow: row;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 23px 1px;
+      display: flex;
+      position: relative
+  }
+
+  #_22_1444 {
+      text-align: left;
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      --f2w-order: 0;
+      -webkit-background-clip: text;
+      background-clip: text;
+      flex-shrink: 0;
+      width: max-content;
+      margin: 0;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      display: inline;
+      position: relative
+  }
+
+  #__51 {
+      overflow-wrap: break-word;
+      color: #bfbfcb;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-family: Proxima Nova;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px
+  }
+
+  #tabler-icon-external-link {
+      --f2w-order: 1;
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      position: relative;
+      overflow: hidden
+  }
+
+  #Vector {
+      --f2w-order: 0;
+      width: 88.9%;
+      height: 83.3%;
+      position: absolute;
+      inset: 0 -1.2% 16.7% 12.3%
+  }
+
+  @font-face {
+      src: url(/__assets/ProximaNova-Semibold-600.woff2)format("woff2");
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap
+  }
+
+  @font-face {
+      src: url(/__assets/ProximaNova-Regular-400.woff2)format("woff2");
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap
+  }
+
+  @font-face {
+      src: url(/__assets/ProximaNova-Light-300.woff2)format("woff2");
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap
+  }
+
+  @font-face {
+      src: url(/__assets/ProximaNova-Extrabold-800.woff2)format("woff2");
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 800;
+      font-display: swap
+  }
+
+  @font-face {
+      src: url(/__assets/ProximaNova-LightItalic-300.woff2)format("woff2");
+      font-family: Proxima Nova;
+      font-style: italic;
+      font-weight: 300;
+      font-display: swap
+  }
+
+  @font-face {
+      src: url(/__assets/eUkraine-Medium-500.woff2)format("woff2");
+      font-family: e-Ukraine;
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap
+  }
+
+  article.prose {
+      line-height: 1.75;
+      display: contents
+  }
+
+  article.prose a {
+      font-weight: 500;
+      text-decoration: underline
+  }
+
+  article.prose h1 {
+      margin-block: 0 1.23em;
+      font-size: 2.25em;
+      line-height: 1.11
+  }
+
+  article.prose h2 {
+      margin-block: 2em 1em;
+      font-size: 1.5em;
+      line-height: 1.34
+  }
+
+  article.prose h3 {
+      margin-block: 1.6em .6em;
+      font-size: 1.25em;
+      line-height: 1.6
+  }
+
+  article.prose h4 {
+      margin-top: 1.5em;
+      margin-bottom: .5em;
+      line-height: 1.5
+  }
+
+  article.prose img {
+      width: 100%;
+      margin-block: 2em
+  }
+
+  article.prose blockquote {
+      margin-block: 1.6em;
+      padding-inline-start: 1em
+  }
+
+  article.prose ul,
+  article.prose ol {
+      padding-inline-start: 1.5em
+  }
